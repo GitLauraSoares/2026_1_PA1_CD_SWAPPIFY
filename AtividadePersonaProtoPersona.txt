@@ -1,0 +1,9 @@
++------------------------------------------+---------------------------------------------------------------------------------------+
+| Estacionamento de Ideias                 | Proto-persona                                                                         |
++------------------------------------------+---------------------------------------------------------------------------------------+
+| Persona: Sem renda fixa                  | "Thaís, a diarista" — Trabalhadora informal que necessita de mais dinheiro            |
+| Persona: Atrás de um serviço específico  | "Victória, a manicure" — Quer aprender mais sobre design de unhas                     |
+| Persona: Divulgação de trabalho          | "Lucas, o empreendedor pet" — Quer divulgar seus serviços de pet-shop                 |
+| Persona: Freelancers                     | "Mariana, a historiadora" — Estudiosa, busca compartilhar seus pensamentos em russo   |
+| Persona: Iniciantes / Estudantes         | "Roberto, o recém-formado" — Focado, quer uma oportunidade em design comercial        |
++------------------------------------------+---------------------------------------------------------------------------------------+,
