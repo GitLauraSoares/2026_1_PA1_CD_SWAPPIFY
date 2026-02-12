@@ -4,7 +4,7 @@
 
 Beatriz Lima
 Ivyna Sousa
-Joâo Paulo Muniz
+João Paulo Muniz
 Laura Soares
 Lorena Brilhante
 Maria Mirella Lima
