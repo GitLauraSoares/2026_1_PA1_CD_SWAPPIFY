@@ -1,0 +1,45 @@
+## Descrição
+
+Nós somos usuários e prestadores de serviços. A ideia é construir um aplicativo mobile que permita que as pessoas divulguem os serviços que sabem fazer e também informem quais serviços estão procurando. Cada prestador poderá criar um perfil com suas habilidades, enquanto o sistema exibirá um feed personalizado de acordo com as necessidades de cada usuário.
+O aplicativo funcionará por meio de um sistema de “match”, semelhante ao do Tinder, conectando pessoas com interesses compatíveis. Após o match, os usuários poderão conversar por meio de um chat para entrar em um acordo. A troca poderá ser feita por permuta de serviços ou por pagamento, caso não haja outro serviço a oferecer.
+O objetivo do aplicativo é facilitar a troca e a contratação de serviços, promovendo colaboração, praticidade e oportunidades de renda entre os usuários.
+
+## É
+
+
+Aplicativo mobile de troca e contratação de serviços entre pessoas
+
+Plataforma de economia colaborativa com perfis de prestadores
+
+Sistema de conexão por interesses e necessidades (match de serviços)
+
+
+## Não é
+
+Plataforma de empregos formais ou CLT
+
+Marketplace de produtos físicos
+
+Rede social de entretenimento
+
+
+## Faz
+
+Permite divulgar serviços oferecidos (aulas, consertos, freelas, cuidados pessoais)
+
+Mostra um feed personalizado com serviços procurados
+
+Realiza match entre usuários compatíveis
+
+Oferece chat para negociação de troca ou pagamento
+
+
+## Não faz
+
+Processamento de folha de pagamento ou contratos trabalhistas
+
+Garantia legal dos serviços prestados
+
+Venda de produtos físicos
+
+Mediação jurídica de conflitos entre usuários
