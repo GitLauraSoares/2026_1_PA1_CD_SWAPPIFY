@@ -1,0 +1,47 @@
+## Jobs to Be Done
+
+Funcional: Encontrar novas oportunidades de trabalho diário para garantir o sustento básico. 
+Exemplo: Thaís acessa o feed para visualizar quem na sua região postou que precisa de uma limpeza residencial para o dia seguinte.
+
+Funcional: Adquirir conhecimentos técnicos específicos por meio de troca direta. 
+Exemplo: Victória oferece serviços de manicure básica em troca de uma aula de design de unhas avançado com outra profissional do app.
+
+Funcional: Criar uma vitrine digital para serviços especializados. 
+Exemplo: Lucas monta seu perfil com fotos de banho e tosa para que donos de pets encontrem seu estabelecimento pelo mapa.
+
+Funcional: Localizar nichos específicos para o compartilhamento de habilidades raras. 
+Exemplo: Mariana publica que está disponível para traduzir textos ou dar aulas de conversação em russo para acadêmicos.
+
+Funcional: Obter a primeira experiência profissional em uma área de formação. 
+Exemplo: Roberto utiliza o sistema de match para oferecer protótipos de design comercial para pequenos negócios em troca de portfólio e recomendações.
+
+Emocional: Aliviar a angústia da instabilidade financeira. 
+Exemplo: Thaís sente-se mais tranquila ao ver que há demanda constante por seus serviços no aplicativo, diminuindo a incerteza do amanhã.
+
+Emocional: Sentir-se confiante e atualizada em sua profissão. 
+Exemplo: Victória ganha autoestima ao aprender novas técnicas de design de unhas e perceber que seu trabalho está evoluindo.
+
+Emocional: Ter a sensação de autonomia e controle sobre o próprio negócio. 
+Exemplo: Lucas sente prazer em gerenciar sua própria agenda e ver o interesse direto de novos clientes em seu serviço pet.
+
+Emocional: Reduzir a frustração de possuir um conhecimento subutilizado. 
+Exemplo: Mariana sente-se realizada intelectualmente ao encontrar alguém interessado em suas pesquisas e no idioma russo.
+
+Emocional: Superar o medo da rejeição no mercado de trabalho tradicional. 
+Exemplo: Roberto sente-se encorajado ao receber o primeiro "match" de uma empresa interessada em seu estilo de design.
+
+Social: Ser reconhecida como uma profissional confiável na comunidade local. 
+Exemplo: Thaís é indicada por vizinhos dentro do chat do app, consolidando sua reputação como a melhor diarista da região.
+
+Social: Estabelecer conexões com profissionais mais experientes da mesma área. 
+Exemplo: Victória passa a ser vista como uma profissional em ascensão ao interagir com outras especialistas em estética.
+
+Social: Posicionar-se como uma autoridade ou referência em um segmento específico. 
+Exemplo: Lucas ganha status de "especialista pet" no bairro ao acumular avaliações positivas e fotos de clientes satisfeitos.
+
+Social: Pertencer a um grupo de intelectuais ou especialistas. 
+Exemplo: Mariana projeta uma imagem de acadêmica poliglota e culta ao trocar conhecimentos de história e russo com outros usuários.
+
+Social: Demonstrar proatividade e "vontade de crescer" para o mercado. 
+Exemplo: Roberto exibe suas parcerias e projetos feitos via app em seu LinkedIn, mostrando que não está parado após a graduação.
+

@@ -1,9 +1,3 @@
-## Descrição
-
-Nós somos usuários e prestadores de serviços. A ideia é construir um aplicativo mobile que permita que as pessoas divulguem os serviços que sabem fazer e também informem quais serviços estão procurando. Cada prestador poderá criar um perfil com suas habilidades, enquanto o sistema exibirá um feed personalizado de acordo com as necessidades de cada usuário.
-O aplicativo funcionará por meio de um sistema de “match”, semelhante ao do Tinder, conectando pessoas com interesses compatíveis. Após o match, os usuários poderão conversar por meio de um chat para entrar em um acordo. A troca poderá ser feita por permuta de serviços ou por pagamento, caso não haja outro serviço a oferecer.
-O objetivo do aplicativo é facilitar a troca e a contratação de serviços, promovendo colaboração, praticidade e oportunidades de renda entre os usuários.
-
 ## É
 
 
