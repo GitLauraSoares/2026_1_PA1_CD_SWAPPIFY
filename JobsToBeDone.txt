@@ -15,6 +15,8 @@ Exemplo: Mariana publica que está disponível para traduzir textos ou dar aulas
 Funcional: Obter a primeira experiência profissional em uma área de formação. 
 Exemplo: Roberto utiliza o sistema de match para oferecer protótipos de design comercial para pequenos negócios em troca de portfólio e recomendações.
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Emocional: Aliviar a angústia da instabilidade financeira. 
 Exemplo: Thaís sente-se mais tranquila ao ver que há demanda constante por seus serviços no aplicativo, diminuindo a incerteza do amanhã.
 
@@ -29,6 +31,8 @@ Exemplo: Mariana sente-se realizada intelectualmente ao encontrar alguém intere
 
 Emocional: Superar o medo da rejeição no mercado de trabalho tradicional. 
 Exemplo: Roberto sente-se encorajado ao receber o primeiro "match" de uma empresa interessada em seu estilo de design.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Social: Ser reconhecida como uma profissional confiável na comunidade local. 
 Exemplo: Thaís é indicada por vizinhos dentro do chat do app, consolidando sua reputação como a melhor diarista da região.
