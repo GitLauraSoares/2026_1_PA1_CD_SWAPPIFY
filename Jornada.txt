@@ -1,0 +1,104 @@
+Persona: Thaís — Diarista (Sem renda fixa)
+Objetivo da jornada: Encontrar oportunidades rápidas de trabalho pago ou trocas de serviços básicos para complementar sua renda sem custos de agenciamento.
+
+Jornadas a construir (MVP):
+
+Oferta de Serviço e Busca de Demanda
+
+Jobs funcionais: "Quero listar meus serviços de limpeza e ver quem na minha região está precisando de faxina agora."
+
+Jobs emocionais: "Sinto-me aliviada por ter uma alternativa direta para ganhar dinheiro sem depender de intermediários exploradores."
+
+Touchpoints: Onboarding (Perfil Bilateral) → Cadastro de Habilidade (Faxina) → Feed Personalizado (Filtro Geolocalização) → Card de Demanda.
+
+Negociação Direta via Chat
+
+Jobs funcionais: "Quero combinar o valor da diária ou o que receberei em troca diretamente com o cliente."
+
+Jobs emocionais: "Sinto-me segura ao conversar e validar se a pessoa é confiável antes de ir até a casa dela."
+
+Touchpoints: Botão "Tenho Interesse" → Chat Nativo → Acordo de Condições (Permuta/Dinheiro).
+
+Persona: Victória — Manicure (Atrás de serviço específico)
+Objetivo da jornada: Trocar seus serviços de manicure por cursos ou mentorias que elevem seu nível profissional.
+
+Jornadas a construir (MVP):
+
+Match de Permuta por Habilidade
+
+Jobs funcionais: "Quero oferecer pé e mão em troca de uma aula de design de unhas ou curso de estética."
+
+Jobs emocionais: "Sinto orgulho de conseguir evoluir na minha carreira usando meu próprio talento como moeda."
+
+Touchpoints: Configuração de Perfil (O que ofereço: Manicure / O que preciso: Cursos) → Algoritmo de Match → Notificação de "Match de Habilidades".
+
+Visualização de Portfólio Simples
+
+Jobs funcionais: "Quero mostrar fotos das unhas que faço para convencer a outra pessoa a trocar o curso comigo."
+
+Jobs emocionais: "Quero ser reconhecida como uma profissional talentosa, mesmo que ainda esteja aprendendo."
+
+Touchpoints: Tela de Perfil → Galeria de Fotos de Serviços → Visualização Pública para o Match.
+
+Persona: Lucas — Empreendedor Pet (Divulgação de trabalho)
+Objetivo da jornada: Aumentar a visibilidade do seu pet-shop local atraindo clientes próximos através de ofertas diretas.
+
+Jornadas a construir (MVP):
+
+Exposição Geolocalizada de Serviços
+
+Jobs funcionais: "Quero que as pessoas num raio de 5km saibam que meu pet-shop oferece banho e tosa."
+
+Jobs emocionais: "Sinto esperança de ver meu negócio crescer e ser uma referência no meu bairro."
+
+Touchpoints: Feed "O que posso oferecer" → Card de Serviço com Distância (km) → Detalhes do Perfil do Negócio.
+
+Triagem de Interessados
+
+Jobs funcionais: "Quero receber mensagens de donos de pets interessados e responder rapidamente."
+
+Jobs emocionais: "Sinto-me no controle do crescimento do meu negócio ao gerenciar meus próprios contatos."
+
+Touchpoints: Inbox de Mensagens → Filtro de Conversas por "Serviço Pet" → Resposta Rápida via Chat.
+
+Persona: Mariana — Historiadora (Freelancer)
+Objetivo da jornada: Validar a demanda por seus conhecimentos intelectuais (russo/história) em troca de serviços que reduzam seus custos fixos.
+
+Jornadas a construir (MVP):
+
+Configuração de Perfil Especialista
+
+Jobs funcionais: "Quero descrever minhas habilidades acadêmicas e o que procuro em troca (ex: design para meu blog)."
+
+Jobs emocionais: "Sinto que meu conhecimento intelectual é valorizado como uma moeda de troca legítima."
+
+Touchpoints: Onboarding (Campos de Especialidade) → Bio do Perfil → Tela "O que preciso" (Habilidades Criativas).
+
+Filtro de Necessidades Específicas
+
+Jobs funcionais: "Quero filtrar o feed para encontrar apenas pessoas que ofereçam o que eu preciso no momento."
+
+Jobs emocionais: "Sinto que não estou perdendo tempo com propostas que não me agregam valor."
+
+Touchpoints: Barra de Busca/Filtros de Categoria → Feed de "O que preciso" → Match por Interesse Mútuo.
+
+Persona: Roberto — Recém-formado (Iniciante/Estudante)
+Objetivo da jornada: Construir experiência prática em design comercial trocando trabalho por portfólio e conexões.
+
+Jornadas a construir (MVP):
+
+Captação de Primeiro Projeto (Pro Bono ou Troca)
+
+Jobs funcionais: "Quero encontrar pequenos negócios que precisem de logo para eu aplicar o que aprendi na faculdade."
+
+Jobs emocionais: "Sinto-me menos ansioso sobre o futuro ao ver meu portfólio crescendo com projetos reais."
+
+Touchpoints: Feed de Demandas → Filtro de Categoria (Design) → Envio de Mensagem de Intenção.
+
+Alinhamento de Expectativas de Entrega
+
+Jobs funcionais: "Quero deixar claro que estou começando e alinhar o que vou entregar no chat."
+
+Jobs emocionais: "Sinto-me honesto e transparente, evitando a pressão de ser um sênior logo de cara."
+
+Touchpoints: Chat Nativo → Compartilhamento de Referências/Links → Confirmação de Acordo de Trabalho.
