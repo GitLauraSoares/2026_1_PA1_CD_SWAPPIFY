@@ -17,6 +17,7 @@ Negociar
 Inicia conversa para combinar valores ou o que receberá em troca → sente-se segura ao validar a identidade do contratante.
 (Touchpoint — Chat Nativo)
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Persona: Victória — Manicure
 Objetivo da Jornada: Trocar serviços de manicure por cursos de especialização.
 
@@ -36,6 +37,7 @@ Validar
 Apresenta o portfólio no chat para fechar a permuta → sente-se confiante na qualidade do seu trabalho.
 (Touchpoint — Chat / Visualização de Portfólio)
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Persona: Lucas — Empreendedor Pet
 Objetivo da Jornada: Divulgar serviços de pet-shop e atrair clientes locais.
 
@@ -55,6 +57,7 @@ Responder
 Utiliza o chat para sanar dúvidas e agendar o serviço → sente que está construindo uma base de clientes fiel.
 (Touchpoint — Chat Nativo / Resposta Rápida)
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Persona: Mariana — Historiadora
 Objetivo da Jornada: Trocar conhecimentos intelectuais por serviços que reduzam custos fixos.
 
@@ -74,6 +77,7 @@ Acordar
 Define os termos da troca intelectual no chat privado → sente-se respeitada em sua profissão.
 (Touchpoint — Chat / Acordo de Condições)
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Persona: Roberto — Recém-formado
 Objetivo da Jornada: Construir portfólio prático em design comercial.
 
