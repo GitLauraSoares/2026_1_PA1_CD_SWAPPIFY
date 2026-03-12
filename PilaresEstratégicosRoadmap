@@ -1,85 +1,67 @@
-# 🚀 Pilares Estratégicos e Roadmap do Projeto
+# 🚀 Planejamento Estratégico & Roadmap de Produto
 
-Este documento detalha as diretrizes e o cronograma de evolução da plataforma, focando em liquidez de conexões, segurança e sustentabilidade do ecossistema.
+Este documento detalha os pilares fundamentais e o cronograma de evolução da plataforma, focada em economia colaborativa e liquidez de serviços.
 
 ---
 
-## 🎯 Pilares Estratégicos
+## 📌 Pilares Estratégicos
 
-* **⚡ Liquidez de Match:** Garantir que a densidade de usuários permita conexões rápidas e relevantes entre oferta e demanda.
-* **🔄 Liberdade Transacional:** Sustentar a proposta de valor híbrida (permuta, dinheiro e modelos mistos) de forma intuitiva.
-* **🛡️ Confiança e Reputação:** Estabelecer mecanismos de segurança e validação de competências para reduzir o risco percebido.
-* **🤝 Retenção e Ecossistema:** Transformar transações isoladas em uma rede recorrente de colaboração e geração de renda.
-* **💰 Sustentabilidade Financeira:** Implementar modelos de monetização que não canibalizem o valor gerado para as personas em vulnerabilidade.
+* **Liquidez de Match:** Garantir que a densidade de usuários permita conexões rápidas e relevantes entre oferta e demanda.
+* **Liberdade Transacional:** Sustentar a proposta de valor híbrida (permuta, dinheiro e modelos mistos) de forma intuitiva.
+* **Confiança e Reputação:** Estabelecer mecanismos de segurança e validação de competências para reduzir o risco percebido.
+* **Retenção e Ecossistema:** Transformar transações isoladas em uma rede recorrente de colaboração e geração de renda.
+* **Sustentabilidade Financeira:** Implementar modelos de monetização que não canibalizem o valor gerado para as personas em vulnerabilidade.
 
 ---
 
 ## 🗺️ Roadmap por Fases
 
-### 📍 Fase 1 — MVP & Validação (Meses 0-3)
-**Foco:** Validar a hipótese central de que usuários estão dispostos a aceitar permuta e pagamentos diretos via "match".
+### 🔹 Fase 1: MVP & Validação (Meses 0-3)
+**Foco:** Validar a hipótese central de aceitação de permuta e pagamentos diretos.
 
-* **Entregas Principais:**
-    * [ ] Fluxo de Onboarding focado em Perfil Bilateral (Habilidades vs. Necessidades).
-    * [ ] Algoritmo básico de Match baseado em geolocalização e categorias de serviço.
-    * [ ] Interface de Feed Personalizado ("O que posso oferecer" / "O que preciso").
-    * [ ] Chat nativo para negociação direta de modelos (Permuta/Dinheiro).
-* **Métricas de Validação:**
-    * Taxa de Match (Matches / Usuários Ativos).
-    * Liquidez do Feed (Nº de ofertas vs. demandas em um raio de 10km).
+* **Entregas:**
+    * Onboarding de Perfil Bilateral (Habilidades vs. Necessidades).
+    * Algoritmo básico de Match (Geolocalização + Categorias).
+    * Interface de Feed Personalizado.
+    * Chat nativo para negociação.
+* **Métricas:** Taxa de Match | Liquidez do Feed (raio de 10km).
 
----
+### 🔹 Fase 2: Tração & Confiança (Meses 4-7)
+**Foco:** Reduzir atrito e aumentar segurança para as personas principais.
 
-### 📍 Fase 2 — Tração & Mecanismos de Confiança (Meses 4-7)
-**Foco:** Reduzir o atrito na negociação e aumentar a segurança para as personas atendidas.
+* **Entregas:**
+    * Sistema de Avaliação e Reviews (Foco em pontualidade/qualidade).
+    * Selos de Verificação de Identidade e Portfólio (Figma/GitHub).
+    * Sugestões de "Contratos Simplificados" no Chat.
+    * Dashboard de "Economia Gerada".
+* **Métricas:** NPS (Net Promoter Score) | Taxa de Acordos Fechados.
 
-* **Entregas Principais:**
-    * [ ] Sistema de Avaliação e Reviews pós-match (Foco em pontualidade e qualidade).
-    * [ ] Selos de Verificação de Identidade e Portfólio integrado (Figma/GitHub/Links externos).
-    * [ ] Sugestões de "Contratos Simplificados" de Acordo (Termos de Aceite no Chat).
-    * [ ] Dashboard de "Economia Gerada" (Quanto o usuário poupou ou ganhou no mês).
-* **Métricas de Validação:**
-    * NPS (Net Promoter Score).
-    * Taxa de Acordos Fechados (Conversão Match -> Acordo).
+### 🔹 Fase 3: Monetização & Flexibilidade (Meses 8-12)
+**Foco:** Introduzir receita sem ferir a essência colaborativa.
 
----
+* **Entregas:**
+    * Gateway de Pagamento com Escrow (Garantia).
+    * Modelo Freemium: Limite de matches vs. Plano Pro.
+    * Calculadora de "Proposta Híbrida" (Dinheiro + Horas).
+    * Ads para Negócios Locais (Foco em MEIs).
+* **Métricas:** MRR (Receita Recorrente) | Take Rate.
 
-### 📍 Fase 3 — Monetização & Flexibilidade Financeira (Meses 8-12)
-**Foco:** Introduzir camadas de receita sem ferir a proposta de economia colaborativa.
-
-* **Entregas Principais:**
-    * [ ] Integração de Gateway de Pagamento para transações monetárias seguras (Escrow/Garantia).
-    * [ ] Modelo Freemium: Limite de matches gratuitos vs. Plano Pro (Destaque no feed).
-    * [ ] Funcionalidade de "Proposta Híbrida": Cálculo de valor em dinheiro + horas de serviço.
-    * [ ] Ads para Negócios Locais (Foco em MEIs).
-* **Métricas de Validação:**
-    * MRR (Receita Recorrente Mensal).
-    * Take Rate (Porcentagem sobre transações monetárias).
-
----
-
-### 📍 Fase 4 — Expansão de Escopo & Parcerias (Meses 13-18)
+### 🔹 Fase 4: Expansão & Parcerias (Meses 13-18)
 **Foco:** Atrair especialistas e fortalecer o ecossistema B2B/B2C.
 
-* **Entregas Principais:**
-    * [ ] Módulo de "Investimento em Parceria": Registro de participação em lucros.
-    * [ ] Perfis de Equipe/Empresa (MEIs podem contratar e oferecer serviços como CNPJ).
-    * [ ] Integração com calendários externos para agendamento de serviços.
-    * [ ] API para parcerias com hubs de inovação e universidades.
-* **Métricas de Validação:**
-    * LTV (Lifetime Value).
-    * Custo de Aquisição de Cliente (CAC).
+* **Entregas:**
+    * Módulo de "Investimento em Parceria" (Equity/Lucros).
+    * Perfis de Equipe/Empresa (CNPJ).
+    * Integração com calendários externos.
+    * API para Hubs de Inovação e Universidades.
+* **Métricas:** LTV (Lifetime Value) | CAC (Custo de Aquisição).
 
----
+### 🔹 Fase 5: Inteligência & Escala (Meses 19+)
+**Foco:** Otimização via IA e expansão global.
 
-### 📍 Fase 5 — Inteligência de Dados & Escala (Meses 19+)
-**Foco:** Otimização do ecossistema através de IA e expansão para novos mercados.
-
-* **Entregas Principais:**
-    * [ ] IA de Recomendação Preditiva (Sugere matches proativamente).
-    * [ ] Precificação Inteligente: Sugestão de valores baseada em dados reais da plataforma.
-    * [ ] Sistema de "Crédito Colaborativo" interno baseado em histórico de trocas.
-    * [ ] Internacionalização e Localização para novos mercados geográficos.
-* **Métricas de Validação:**
-    * Taxa de Retenção (Churn Rate).
-    * K-Factor (Coeficiente de viralidade).
+* **Entregas:**
+    * IA de Recomendação Preditiva.
+    * Precificação Inteligente baseada em dados reais.
+    * Sistema de "Crédito Colaborativo" interno.
+    * Internacionalização e Localização.
+* **Métricas:** Churn Rate | K-Factor (Viralidade).
