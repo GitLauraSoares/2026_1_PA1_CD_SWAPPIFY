@@ -19,6 +19,7 @@ Jobs emocionais: "Sinto-me segura ao conversar e validar se a pessoa é confiáv
 
 Touchpoints: Botão "Tenho Interesse" → Chat Nativo → Acordo de Condições (Permuta/Dinheiro).
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Persona: Victória — Manicure (Atrás de serviço específico)
 Objetivo da jornada: Trocar seus serviços de manicure por cursos ou mentorias que elevem seu nível profissional.
 
@@ -40,6 +41,7 @@ Jobs emocionais: "Quero ser reconhecida como uma profissional talentosa, mesmo q
 
 Touchpoints: Tela de Perfil → Galeria de Fotos de Serviços → Visualização Pública para o Match.
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Persona: Lucas — Empreendedor Pet (Divulgação de trabalho)
 Objetivo da jornada: Aumentar a visibilidade do seu pet-shop local atraindo clientes próximos através de ofertas diretas.
 
@@ -61,6 +63,7 @@ Jobs emocionais: "Sinto-me no controle do crescimento do meu negócio ao gerenci
 
 Touchpoints: Inbox de Mensagens → Filtro de Conversas por "Serviço Pet" → Resposta Rápida via Chat.
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Persona: Mariana — Historiadora (Freelancer)
 Objetivo da jornada: Validar a demanda por seus conhecimentos intelectuais (russo/história) em troca de serviços que reduzam seus custos fixos.
 
@@ -82,6 +85,7 @@ Jobs emocionais: "Sinto que não estou perdendo tempo com propostas que não me 
 
 Touchpoints: Barra de Busca/Filtros de Categoria → Feed de "O que preciso" → Match por Interesse Mútuo.
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Persona: Roberto — Recém-formado (Iniciante/Estudante)
 Objetivo da jornada: Construir experiência prática em design comercial trocando trabalho por portfólio e conexões.
 
