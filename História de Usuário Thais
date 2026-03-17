@@ -1,0 +1,163 @@
+História de Usuário — Touchpoint: Onboarding / Perfil
+Persona: Thaís — Diarista
+1. História de Usuário (Narrativa)
+
+Como Thaís — diarista que precisa complementar renda rapidamente
+
+Eu quero cadastrar meu perfil informando quais serviços de limpeza ofereço e minha localização
+
+Para que eu possa aparecer para pessoas próximas que precisam de faxina e encontrar oportunidades de trabalho rapidamente.
+
+2. Detalhes da Tela
+Estrutura da Tela (Mobile First)
+
+A tela faz parte do fluxo de onboarding após criação da conta.
+
+Header
+
+Título: Complete seu perfil
+
+Subtítulo: Conte o que você pode oferecer para encontrar trabalhos perto de você.
+
+Seção 1 — Informações Básicas
+
+Campo: Foto de perfil
+
+Botão: "Adicionar foto"
+
+Opções:
+
+Tirar foto
+
+Escolher da galeria
+
+Campo: Nome completo
+
+Campo: Cidade / bairro
+
+Pode usar geolocalização automática
+
+Botão auxiliar: "Usar minha localização"
+
+Seção 2 — Serviços que oferece
+
+Título: O que você oferece?
+
+Seleção rápida (checkbox):
+
+Faxina residencial
+
+Limpeza pós-obra
+
+Limpeza de escritório
+
+Organização de casa
+
+Lavagem de roupas
+
+Campo adicional:
+
+"Outro serviço"
+
+Seção 3 — Disponibilidade
+
+Título: Quando você pode trabalhar?
+
+Seleção:
+
+Manhã
+
+Tarde
+
+Noite
+
+Fim de semana
+
+Seção 4 — Forma de pagamento ou troca
+
+Título: Como prefere receber?
+
+Opções:
+
+Dinheiro
+
+Pix
+
+Troca por produtos ou serviços
+
+Negociar no chat
+
+Seção 5 — Descrição rápida
+
+Campo texto livre:
+
+Placeholder:
+
+"Ex: Tenho 5 anos de experiência em faxina residencial. Sou organizada e pontual."
+
+Botão de ação principal
+
+Botão destacado:
+
+"Salvar e ver oportunidades"
+
+Navegação após ação
+
+Após salvar:
+
+Usuário é redirecionado para
+
+Feed de demandas próximas
+
+3. Critérios de Aceitação (BDD — Behavior Driven Development)
+Cenário 1 — Cadastro de perfil com sucesso
+
+Dado que Thaís criou uma conta no aplicativo e está no fluxo de onboarding
+
+Quando ela preenche os campos obrigatórios de perfil
+
+Nome
+
+Serviço oferecido
+
+Localização
+
+E toca no botão "Salvar e ver oportunidades"
+
+Então o sistema salva seu perfil com sucesso
+
+E exibe uma confirmação visual
+
+E redireciona a usuária para o Feed de Demandas Próximas
+
+Cenário 2 — Campo obrigatório não preenchido
+
+Dado que Thaís está preenchendo o perfil
+
+Quando tenta salvar sem informar ao menos um serviço oferecido
+
+Então o sistema exibe uma mensagem de erro:
+
+"Selecione pelo menos um serviço que você oferece."
+
+E impede a continuação até que o campo seja preenchido.
+
+Cenário 3 — Uso da geolocalização
+
+Dado que Thaís está preenchendo sua localização
+
+Quando toca no botão "Usar minha localização"
+
+Então o aplicativo solicita permissão de localização
+
+E preenche automaticamente o campo de cidade/bairro.
+
+Cenário 4 — Perfil salvo com sucesso
+
+Dado que Thaís completou seu perfil
+
+Quando o sistema salva os dados
+
+Então ela passa a aparecer nas buscas locais
+
+E poderá visualizar oportunidades no feed próximo.
