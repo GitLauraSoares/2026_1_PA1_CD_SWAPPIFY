@@ -1,0 +1,119 @@
+# User Story — Onboarding de Perfil
+
+Persona: Roberto — Recém-formado  
+Touchpoint: Onboarding / Perfil  
+Objetivo: Conseguir projetos para construir portfólio.
+
+--------------------------------------------------
+
+## 1. História de Usuário
+
+Como Roberto, um recém-formado em design,
+
+Eu quero cadastrar minhas habilidades e nível de experiência,
+
+Para que eu possa encontrar projetos reais.
+
+--------------------------------------------------
+
+## 2. Detalhes da Tela (UI / UX)
+
+Tela: Onboarding de Perfil (Mobile)
+
+Header
+Título: Comece sua jornada profissional
+Subtítulo: Encontre projetos para desenvolver seu portfólio.
+
+Seção 1 — Informações Básicas
+- Nome
+- Foto
+- Localização
+
+Seção 2 — Habilidades
+Título: O que você faz?
+
+Opções:
+- Design de logo
+- Identidade visual
+- Social media
+- UI/UX
+- Outro
+
+Seção 3 — Nível de experiência
+Título: Seu nível
+
+Opções:
+- Iniciante
+- Intermediário
+- Avançado
+
+Seção 4 — Tipo de oportunidade
+Título: O que você busca?
+
+Opções:
+- Experiência
+- Troca
+- Pago
+
+Seção 5 — Descrição
+Campo de texto livre
+
+Placeholder:
+Ex: Sou recém-formado e busco meus primeiros projetos.
+
+Botão principal:
+Salvar e explorar projetos
+
+Navegação após salvar:
+Feed de demandas
+
+--------------------------------------------------
+
+## 3. Critérios de Aceitação (BDD)
+
+Cenário 1 — Cadastro realizado com sucesso
+
+Dado que Roberto criou uma conta no aplicativo  
+Quando ele preenche os campos obrigatórios:
+- Nome
+- Pelo menos uma habilidade
+
+E clica em "Salvar e explorar projetos"
+
+Então o sistema salva o perfil  
+E redireciona para o feed  
+
+--------------------------------------------------
+
+Cenário 2 — Campo obrigatório não preenchido
+
+Dado que Roberto está preenchendo o perfil
+
+Quando tenta salvar sem selecionar nenhuma habilidade
+
+Então o sistema mostra a mensagem:
+"Selecione pelo menos uma habilidade"
+
+E impede o avanço
+
+--------------------------------------------------
+
+Cenário 3 — Uso da geolocalização
+
+Dado que Roberto está preenchendo o campo de localização
+
+Quando toca em "Usar minha localização"
+
+Então o app solicita permissão
+
+E preenche automaticamente
+
+--------------------------------------------------
+
+Cenário 4 — Perfil ativo
+
+Dado que o perfil foi salvo com sucesso
+
+Então Roberto passa a visualizar oportunidades relevantes
+
+EOF
