@@ -1,0 +1,133 @@
+# User Story — Onboarding de Perfil
+
+Persona: Victória — Manicure  
+Touchpoint: Onboarding / Perfil  
+Objetivo: Trocar serviços de manicure por cursos ou mentorias para evoluir profissionalmente.
+
+--------------------------------------------------
+
+## 1. História de Usuário
+
+Como Victória, uma manicure que deseja evoluir na carreira,
+
+Eu quero cadastrar meu perfil informando os serviços que ofereço e o que desejo receber em troca,
+
+Para que eu possa encontrar pessoas dispostas a trocar cursos ou mentorias pelos meus serviços.
+
+--------------------------------------------------
+
+## 2. Detalhes da Tela (UI / UX)
+
+Tela: Onboarding de Perfil (Mobile)
+
+Header
+Título: Complete seu perfil
+Subtítulo: Mostre seu talento e encontre oportunidades de troca.
+
+Seção 1 — Informações Básicas
+- Foto de perfil
+  Botão: Adicionar foto
+  Opções:
+  - Tirar foto
+  - Escolher da galeria
+
+- Campo: Nome completo
+  Placeholder: Digite seu nome
+
+- Campo: Localização
+  Botão auxiliar: Usar minha localização
+
+Seção 2 — Serviços oferecidos
+Título: O que você oferece?
+
+Opções:
+- Manicure básica
+- Pedicure
+- Alongamento em gel
+- Nail art
+- Spa dos pés
+- Outro serviço
+
+Seção 3 — O que você procura
+Título: O que você quer receber?
+
+Opções:
+- Cursos de manicure
+- Cursos de estética
+- Mentorias
+- Produtos profissionais
+- Outro
+
+Seção 4 — Disponibilidade
+Título: Quando você atende?
+
+Opções:
+- Manhã
+- Tarde
+- Noite
+- Fins de semana
+
+Seção 5 — Descrição
+Campo de texto livre
+
+Placeholder:
+Ex: Trabalho com manicure há 2 anos e estou buscando me especializar.
+
+Botão principal:
+Salvar e encontrar matches
+
+Navegação após salvar:
+Tela de matches de habilidades
+
+--------------------------------------------------
+
+## 3. Critérios de Aceitação (BDD)
+
+Cenário 1 — Cadastro realizado com sucesso
+
+Dado que Victória criou uma conta no aplicativo  
+Quando ela preenche os campos obrigatórios:
+- Nome
+- Localização
+- Pelo menos um serviço oferecido
+- Pelo menos um interesse
+
+E clica em "Salvar e encontrar matches"
+
+Então o sistema salva o perfil  
+E redireciona para a tela de matches  
+
+--------------------------------------------------
+
+Cenário 2 — Campo obrigatório não preenchido
+
+Dado que Victória está preenchendo o perfil
+
+Quando tenta salvar sem informar o que procura
+
+Então o sistema mostra a mensagem:
+"Informe o que você deseja receber"
+
+E impede o avanço no fluxo
+
+--------------------------------------------------
+
+Cenário 3 — Uso da geolocalização
+
+Dado que Victória está preenchendo o campo de localização
+
+Quando toca em "Usar minha localização"
+
+Então o aplicativo solicita permissão de localização
+
+E preenche automaticamente o campo
+
+--------------------------------------------------
+
+Cenário 4 — Perfil ativo
+
+Dado que o perfil foi salvo com sucesso
+
+Então Victória passa a aparecer em matches de habilidades
+
+EOF
