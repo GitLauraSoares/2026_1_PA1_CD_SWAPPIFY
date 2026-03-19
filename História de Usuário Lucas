@@ -1,0 +1,122 @@
+# User Story — Onboarding de Perfil
+
+Persona: Lucas — Empreendedor Pet  
+Touchpoint: Onboarding / Perfil  
+Objetivo: Divulgar serviços do pet-shop e atrair clientes próximos.
+
+--------------------------------------------------
+
+## 1. História de Usuário
+
+Como Lucas, dono de um pet-shop,
+
+Eu quero cadastrar meu perfil e os serviços que ofereço com localização,
+
+Para que clientes próximos encontrem meu negócio e contratem meus serviços.
+
+--------------------------------------------------
+
+## 2. Detalhes da Tela (UI / UX)
+
+Tela: Onboarding de Perfil (Mobile)
+
+Header
+Título: Crie o perfil do seu negócio
+Subtítulo: Mostre seus serviços para clientes perto de você.
+
+Seção 1 — Informações do negócio
+- Foto ou logo
+- Nome do negócio
+- Localização
+- Botão: Usar minha localização
+
+Seção 2 — Serviços oferecidos
+Título: O que você oferece?
+
+Opções:
+- Banho
+- Tosa
+- Hospedagem
+- Consulta veterinária
+- Outro serviço
+
+Seção 3 — Área de atendimento
+Título: Até onde você atende?
+
+Opções:
+- 1 km
+- 3 km
+- 5 km
+- 10 km
+
+Seção 4 — Forma de pagamento
+Título: Como recebe?
+
+Opções:
+- Dinheiro
+- Pix
+- Cartão
+
+Seção 5 — Descrição
+Campo de texto livre
+
+Placeholder:
+Ex: Pet-shop com experiência em banho e tosa.
+
+Botão principal:
+Publicar e aparecer no feed
+
+Navegação após salvar:
+Feed local de serviços
+
+--------------------------------------------------
+
+## 3. Critérios de Aceitação (BDD)
+
+Cenário 1 — Cadastro realizado com sucesso
+
+Dado que Lucas criou uma conta no aplicativo  
+Quando ele preenche os campos obrigatórios:
+- Nome do negócio
+- Localização
+- Pelo menos um serviço
+
+E clica em "Publicar e aparecer no feed"
+
+Então o sistema salva o perfil  
+E redireciona para o feed local  
+
+--------------------------------------------------
+
+Cenário 2 — Campo obrigatório não preenchido
+
+Dado que Lucas está preenchendo o perfil
+
+Quando tenta salvar sem selecionar nenhum serviço
+
+Então o sistema mostra a mensagem:
+"Selecione pelo menos um serviço"
+
+E impede o avanço no fluxo
+
+--------------------------------------------------
+
+Cenário 3 — Uso da geolocalização
+
+Dado que Lucas está preenchendo o campo de localização
+
+Quando toca em "Usar minha localização"
+
+Então o aplicativo solicita permissão de localização
+
+E preenche automaticamente o campo
+
+--------------------------------------------------
+
+Cenário 4 — Perfil ativo
+
+Dado que o perfil foi salvo com sucesso
+
+Então o negócio passa a aparecer para usuários próximos
+
+EOF
