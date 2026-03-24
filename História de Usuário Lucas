@@ -40,6 +40,13 @@ Opções:
 - Consulta veterinária
 - Outro serviço
 
+
+Fluxo:
+1. Usuário acessa onboarding
+2. Preenche informações
+3. Publica perfil
+4. Sistema valida e redireciona
+
 Seção 3 — Área de atendimento
 Título: Até onde você atende?
 
@@ -119,4 +126,98 @@ Dado que o perfil foi salvo com sucesso
 
 Então o negócio passa a aparecer para usuários próximos
 
-EOF
+EOFDocumento de User Story e Fluxos
+Aplicativo de Match de Serviços
+Persona
+
+Nome: Lucas — Empreendedor Pet
+Objetivo: Divulgar serviços do pet-shop e conseguir clientes próximos
+Contexto: Dono de um pet-shop que deseja aumentar sua clientela usando o aplicativo
+User Story Principal — Divulgação de Serviço
+Como Lucas, dono de um pet-shop,
+Eu quero cadastrar meu perfil e os serviços que ofereço com localização,
+Para que clientes próximos encontrem meu negócio e contratem meus serviços.
+Fluxo 1: Onboarding / Divulgação de Serviço
+Objetivo: Permitir que Lucas crie seu perfil profissional e publique seus serviços.
+
+Tela: Onboarding de Perfil
+- Foto ou logo
+- Nome do negócio
+- Localização
+- Serviços oferecidos
+- Área de atendimento
+- Forma de pagamento
+- Descrição
+- Botão: Publicar e aparecer no feed
+
+Fluxo:
+1. Lucas acessa o aplicativo
+2. Preenche os dados do negócio
+3. Seleciona serviços
+4. Define localização
+5. Publica perfil
+6. Sistema salva e redireciona para o feed
+Critério de Aceitação:
+Dado que Lucas preenche os campos obrigatórios
+Quando publica o perfil
+Então o sistema salva e redireciona ao feed
+
+Fluxo 2: Feed de Serviços
+Objetivo: Permitir visualização e descoberta de serviços
+Tela:
+- Lista de serviços próximos
+- Filtros
+- Botões de interesse
+
+Fluxo:
+1. Usuário acessa o feed
+2. Visualiza serviços
+3. Interage com interesse
+4. Sistema registra ação
+
+Critério de Aceitação:
+Dado que o usuário acessa o feed
+Então o sistema exibe serviços próximos
+Fluxo 3: Recebimento de Solicitações
+Objetivo: Permitir que Lucas veja demandas
+Fluxo:
+1. Cliente cria solicitação
+2. Sistema mostra para Lucas
+3. Lucas demonstra interesse
+4. Sistema tenta match
+Fluxo 4: Match
+Objetivo: Conectar usuários
+Fluxo:
+1. Ambas partes demonstram interesse
+2. Sistema cria match
+3. Chat é liberado
+
+Critério:
+Dado interesse mútuo
+Então o sistema cria match
+Fluxo 5: Negociação
+Objetivo: Permitir acordo
+
+Fluxo:
+1. Usuários conversam
+2. Proposta é enviada
+3. Proposta é aceita
+4. Sistema marca como acordo fechado
+Critério:
+Dado proposta aceita
+Então o sistema registra acordo
+
+Fluxo Completo
+1. Lucas cria perfil
+2. Publica serviço
+3. Aparece no feed
+4. Cliente demonstra interesse
+5. Match ocorre
+6. Chat inicia
+7. Negociação acontece
+8. Acordo fechado
+
+Conclusão
+O sistema permite que Lucas divulgue seus serviços, encontre clientes e realize negociações de
+forma prática.
+
