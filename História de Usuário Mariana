@@ -1,123 +1,85 @@
-# User Story — Onboarding de Perfil
-
-Persona: Mariana — Historiadora  
-Touchpoint: Onboarding / Perfil  
-Objetivo: Oferecer conhecimento intelectual e encontrar trocas relevantes.
-
---------------------------------------------------
-
-## 1. História de Usuário
-
-Como Mariana, uma historiadora freelancer,
-
-Eu quero cadastrar minhas habilidades e o que procuro em troca,
-
-Para que eu possa trocar conhecimento por serviços úteis.
-
---------------------------------------------------
-
-## 2. Detalhes da Tela (UI / UX)
-
+User Stories - Fluxo Feliz Completo
+Persona: Mariana
+Objetivo: Oferecer conhecimento intelectual e encontrar trocas relevantes
+1. User Story - Onboarding de Perfil
+1. História de Usuário
+Como Mariana, uma historiadora que precisa complementar sua renda ou realizar trocas rapidamente,
+Eu quero cadastrar meu perfil informando quais serviços intelectuais ofereço e minha localização,
+Para que eu possa aparecer para pessoas próximas que precisam de conhecimento especializado e encontrar oportunidades de trabalho rapidamente.
+2. Detalhes da Tela (UI / UX)
 Tela: Onboarding de Perfil (Mobile)
-
+•
 Header
-Título: Compartilhe seu conhecimento
-Subtítulo: Encontre pessoas que valorizam o que você sabe.
-
-Seção 1 — Informações Básicas
-- Nome
-- Foto
-- Localização
-
-Seção 2 — Especialidades
-Título: O que você oferece?
-
+o
+Título: Complete seu perfil
+o
+Subtítulo: Conte o que você pode oferecer para encontrar trabalhos perto de você.
+•
+Seção 1 - Informações Básicas
+o
+Foto de perfil
+▪
+Botão: Adicionar foto
+▪
+Opções: Tirar foto ou Escolher da galeria
+o
+Campo: Nome completo (Placeholder: Digite seu nome)
+o
+Campo: Localização (Botão auxiliar: Usar minha localização)
+•
+Seção 2 - Serviços oferecidos
+o
 Opções:
-- História geral
-- História da Rússia
-- Tradução de textos
-- Produção de conteúdo
-- Aulas particulares
-
-Seção 3 — O que você procura
-Título: O que você precisa?
-
-Opções:
-- Design gráfico
-- Desenvolvimento web
-- Marketing
-- Revisão de texto
-- Outro
-
-Seção 4 — Tipo de troca
-Título: Como prefere negociar?
-
-Opções:
-- Troca
-- Pago
-- Negociar no chat
-
-Seção 5 — Descrição
-Campo de texto livre
-
+▪
+História geral
+▪
+História da Rússia
+▪
+Tradução de textos
+▪
+Produção de conteúdo
+▪
+Aulas particulares
+▪
+Outro serviço
+•
+Seção 3 - Disponibilidade
+o
+Opções: Manhã, Tarde, Noite, Fins de semana
+•
+Seção 4 - Forma de pagamento ou troca
+o
+Opções: Dinheiro, Pix, Troca por produtos ou serviços, negociar no chat
+•
+Seção 5 - Descrição
+o
 Placeholder:
-Ex: Sou historiadora com foco em história russa.
-
-Botão principal:
-Salvar e ver oportunidades
-
-Navegação após salvar:
-Feed filtrado
-
---------------------------------------------------
-
-## 3. Critérios de Aceitação (BDD)
-
-Cenário 1 — Cadastro realizado com sucesso
-
-Dado que Mariana criou uma conta no aplicativo  
-Quando ela preenche os campos obrigatórios:
-- Nome
-- Localização
-- Pelo menos uma habilidade
-- Pelo menos uma necessidade
-
-E clica em "Salvar e ver oportunidades"
-
-Então o sistema salva o perfil  
-E redireciona para o feed  
-
---------------------------------------------------
-
-Cenário 2 — Campo obrigatório não preenchido
-
-Dado que Mariana está preenchendo o perfil
-
-Quando tenta salvar sem informar uma habilidade
-
-Então o sistema mostra a mensagem:
-"Informe pelo menos uma habilidade"
-
-E impede o avanço
-
---------------------------------------------------
-
-Cenário 3 — Uso da geolocalização
-
-Dado que Mariana está preenchendo o campo de localização
-
-Quando toca em "Usar minha localização"
-
-Então o aplicativo solicita permissão
-
-E preenche automaticamente
-
---------------------------------------------------
-
-Cenário 4 — Perfil ativo
-
-Dado que o perfil foi salvo com sucesso
-
-Então Mariana aparece para matches compatíveis
-
-EOF
+Ex: Sou historiadora com foco em história russa. Sou organizada e pontual.
+•
+Botão principal: Salvar e ver oportunidades
+•
+Navegação após salvar: Feed de demandas próximas
+3. Critérios de Aceitação (BDD)
+•
+Cenário 1 - Cadastro realizado com sucesso: Dado que Mariana criou uma conta, quando preenche Nome, Localização e ao menos um serviço e clica em "Salvar", então o sistema salva o perfil e redireciona para o feed.
+•
+Cenário 2 - Campo obrigatório não preenchido: Se tentar salvar sem serviço, o sistema mostra: "Selecione pelo menos um serviço que você oferece" e impede o avanço.
+•
+Cenário 3 - Uso da geolocalização: Ao tocar em "Usar minha localização", o app solicita permissão e preenche o campo automaticamente.
+2. User Story - Sendo Solicitada para um Serviço
+1. História de Usuário
+Como Mariana, uma historiadora disponível para trabalhar,
+Eu quero receber solicitações de clientes interessados no meu serviço,
+Para que eu possa aceitar oportunidades sem precisar buscar ativamente.
+3. User Story - Negociação
+1. História de Usuário
+Como Mariana, eu quero negociar os detalhes do serviço via chat, para que eu possa alinhar valores, horários e condições com segurança.
+4. User Story - Divulgação do Serviço
+1. História de Usuário
+Como Mariana, eu quero divulgar meus serviços na plataforma, para aumentar minhas chances de ser encontrada por clientes próximos.
+5. User Story - Rodando na Timeline
+1. História de Usuário
+Como Mariana, eu quero visualizar um feed com oportunidades e serviços próximos , para que eu possa encontrar rapidamente trabalhos disponíveis na minha região.
+6. User Story - Solicitando Serviço
+1. História de Usuário
+Como Mariana, uma historiadora que também pode precisar de ajuda em outras situações , eu quero solicitar um serviço dentro da plataforma , para que eu possa encontrar alguém confiável rapidamente na minha região.
