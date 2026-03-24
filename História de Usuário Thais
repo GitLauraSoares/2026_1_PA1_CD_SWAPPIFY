@@ -1,134 +1,130 @@
-# User Story — Onboarding de Perfil
+# 📋 User Stories — Fluxo Feliz Completo
+**Persona:** Thaís — Diarista  
+**Objetivo:** Complementar renda com oportunidades rápidas e locais.
 
-Persona: Thaís — Diarista  
-Touchpoint: Onboarding / Perfil  
-Objetivo: Encontrar oportunidades rápidas de trabalho ou trocas para complementar renda.
+---
 
---------------------------------------------------
+## 1. Onboarding de Perfil
 
-## 1. História de Usuário
+### 📖 História de Usuário
+Como **Thaís**, uma diarista que precisa complementar sua renda rapidamente,  
+Eu quero **cadastrar meu perfil** informando quais serviços de limpeza ofereço e minha localização,  
+Para que eu possa **aparecer para pessoas próximas** que precisam de faxina e encontrar oportunidades de trabalho rapidamente.
 
-Como Thaís, uma diarista que precisa complementar sua renda rapidamente,
+### 📱 Detalhes da Tela (UI / UX)
+* **Tela:** Onboarding de Perfil (Mobile)
+* **Header:** * Título: "Complete seu perfil"
+    * Subtítulo: "Conte o que você pode oferecer para encontrar trabalhos perto de você."
+* **Seção 1 — Informações Básicas:**
+    * Foto de perfil (Botão: Adicionar foto - Opções: Tirar foto / Galeria)
+    * Campo: Nome completo (Placeholder: Digite seu nome)
+    * Campo: Localização (Botão: "Usar minha localização")
+* **Seção 2 — Serviços Oferecidos:**
+    * Checkboxes: Faxina residencial, Limpeza pós-obra, Limpeza de escritório, Organização de casa, Lavagem de roupas, Outro.
+* **Seção 3 — Disponibilidade:**
+    * Opções: Manhã, Tarde, Noite, Fins de semana.
+* **Seção 4 — Forma de Pagamento:**
+    * Opções: Dinheiro, Pix, Troca por produtos/serviços, Negociar no chat.
+* **Seção 5 — Descrição:**
+    * Campo de texto livre (Placeholder: "Ex: Tenho 5 anos de experiência...")
+* **Botão Principal:** "Salvar e ver oportunidades"
 
-Eu quero cadastrar meu perfil informando quais serviços de limpeza ofereço e minha localização,
+### ✅ Critérios de Aceitação (BDD)
+* **Cenário 1 — Cadastro realizado com sucesso:**
+    * **Dado** que Thaís criou uma conta no aplicativo
+    * **Quando** ela preenche os campos obrigatórios (Nome, Localização e pelo menos um serviço)
+    * **E** clica em "Salvar e ver oportunidades"
+    * **Então** o sistema salva o perfil, exibe confirmação e redireciona para o feed.
+* **Cenário 2 — Campo obrigatório não preenchido:**
+    * **Dado** que Thaís está preenchendo o perfil
+    * **Quando** tenta salvar sem selecionar nenhum serviço
+    * **Então** o sistema mostra: "Selecione pelo menos um serviço que você oferece" e impede o avanço.
+* **Cenário 3 — Uso da geolocalização:**
+    * **Dado** que Thaís está no campo de localização
+    * **Quando** toca em "Usar minha localização"
+    * **Então** o aplicativo solicita permissão de GPS e preenche automaticamente o bairro/cidade.
 
-Para que eu possa aparecer para pessoas próximas que precisam de faxina e encontrar oportunidades de trabalho rapidamente.
+---
 
---------------------------------------------------
+## 2. Sendo Solicitada para um Serviço
 
-## 2. Detalhes da Tela (UI / UX)
+### 📖 História de Usuário
+Como **Thaís**, disponível para trabalhar,  
+Eu quero **receber solicitações diretas** de clientes,  
+Para que eu possa **aceitar oportunidades** sem precisar buscar ativamente.
 
-Tela: Onboarding de Perfil (Mobile)
+### 📱 Detalhes da Tela
+* **Tela:** Notificação / Solicitação Recebida
+* **Card de Solicitação:** Nome do solicitante, Tipo de serviço, Localização, Data.
+* **Botões:** [Aceitar] [Recusar] [Ver detalhes]
 
-Header
-Título: Complete seu perfil
-Subtítulo: Conte o que você pode oferecer para encontrar trabalhos perto de você.
+### ✅ Critérios de Aceitação
+* **Cenário 1:** Dado que Thaís possui perfil ativo, quando um cliente solicita seu serviço, ela deve receber uma notificação push e visualizar o card com os detalhes.
 
-Seção 1 — Informações Básicas
-- Foto de perfil
-  Botão: Adicionar foto
-  Opções:
-  - Tirar foto
-  - Escolher da galeria
+---
 
-- Campo: Nome completo
-  Placeholder: Digite seu nome
+## 3. Negociação via Chat
 
-- Campo: Localização
-  Botão auxiliar: Usar minha localização
+### 📖 História de Usuário
+Como **Thaís**,  
+Eu quero **negociar os detalhes** via chat,  
+Para que eu possa **alinhar valores e condições** com segurança.
 
-Seção 2 — Serviços oferecidos
-Título: O que você oferece?
+### 📱 Detalhes da Tela
+* **Tela:** Chat Nativo
+* **Ações Rápidas:** Sugerir valor, Confirmar serviço, Cancelar.
+* **Input:** Campo de mensagem e botão enviar.
 
-Opções:
-- Faxina residencial
-- Limpeza pós-obra
-- Limpeza de escritório
-- Organização de casa
-- Lavagem de roupas
-- Outro serviço
+### ✅ Critérios de Aceitação
+* **Cenário 1:** Dado que uma negociação foi iniciada, Thaís deve conseguir enviar mensagens em tempo real e utilizar os botões de ação para formalizar o acordo.
 
-Seção 3 — Disponibilidade
-Título: Quando você pode trabalhar?
+---
 
-Opções:
-- Manhã
-- Tarde
-- Noite
-- Fins de semana
+## 4. Divulgação do Serviço
 
-Seção 4 — Forma de pagamento ou troca
-Título: Como prefere receber?
+### 📖 História de Usuário
+Como **Thaís**,  
+Eu quero **divulgar meus serviços** na plataforma,  
+Para **aumentar minhas chances** de ser encontrada.
 
-Opções:
-- Dinheiro
-- Pix
-- Troca por produtos ou serviços
-- Negociar no chat
+### 📱 Detalhes da Tela
+* **Tela:** Criar Post de Serviço
+* **Campos:** Seleção de tipo, Descrição, Upload de Imagens (opcional), Disponibilidade.
+* **Botão:** "Publicar"
 
-Seção 5 — Descrição
-Campo de texto livre
+### ✅ Critérios de Aceitação
+* **Cenário 1:** Após preencher os dados e clicar em "Publicar", o post deve aparecer imediatamente no feed público da região de Thaís.
 
-Placeholder:
-Ex: Tenho 5 anos de experiência em faxina residencial. Sou organizada e pontual.
+---
 
-Botão principal:
-Salvar e ver oportunidades
+## 5. Rodando na Timeline (Feed)
 
-Navegação após salvar:
-Feed de demandas próximas
+### 📖 História de Usuário
+Como **Thaís**,  
+Eu quero **visualizar um feed** com oportunidades próximas,  
+Para encontrar **trabalhos disponíveis** rapidamente.
 
---------------------------------------------------
+### 📱 Detalhes da Tela
+* **Filtros:** Tipo de serviço, Distância, Data.
+* **Card do Feed:** Tipo de serviço, Distância, Descrição curta, Botão "Tenho interesse".
 
-## 3. Critérios de Aceitação (BDD)
+### ✅ Critérios de Aceitação
+* **Cenário 1:** O sistema deve filtrar automaticamente as demandas baseadas na geolocalização do perfil de Thaís.
+* **Cenário 2:** Ao clicar em "Tenho interesse", o sistema deve abrir automaticamente um chat com o autor da demanda.
 
-Cenário 1 — Cadastro realizado com sucesso
+---
 
-Dado que Thaís criou uma conta no aplicativo  
-Quando ela preenche os campos obrigatórios:
-- Nome
-- Localização
-- Pelo menos um serviço oferecido
+## 6. Solicitando Serviço (Persona como Cliente)
 
-E clica em "Salvar e ver oportunidades"
+### 📖 História de Usuário
+Como **Thaís**, que também pode precisar de ajuda,  
+Eu quero **solicitar um serviço**,  
+Para encontrar **alguém confiável** na minha região.
 
-Então o sistema salva o perfil  
-E exibe confirmação de sucesso  
-E redireciona para o feed de demandas próximas
+### 📱 Detalhes da Tela
+* **Tela:** Criar Solicitação
+* **Campos:** Tipo (Limpeza, Org, Cozinha, Outro), Descrição, Localização (GPS), Data/Horário, Forma de Pagamento.
+* **Botão:** "Publicar solicitação"
 
---------------------------------------------------
-
-Cenário 2 — Campo obrigatório não preenchido
-
-Dado que Thaís está preenchendo o perfil
-
-Quando tenta salvar sem selecionar nenhum serviço
-
-Então o sistema mostra a mensagem:
-"Selecione pelo menos um serviço que você oferece"
-
-E impede o avanço no fluxo
-
---------------------------------------------------
-
-Cenário 3 — Uso da geolocalização
-
-Dado que Thaís está preenchendo o campo de localização
-
-Quando toca em "Usar minha localização"
-
-Então o aplicativo solicita permissão de localização
-
-E preenche automaticamente o campo de cidade ou bairro
-
---------------------------------------------------
-
-Cenário 4 — Perfil ativo
-
-Dado que o perfil foi salvo com sucesso
-
-Então Thaís passa a aparecer nas buscas locais
-
-E poderá visualizar oportunidades no feed da região
-
-EOF
+### ✅ Critérios de Aceitação
+* **Cenário 1:** Dado que Thaís está logada, ao publicar uma solicitação, ela deve ser visível para outros prestadores na mesma região.
