@@ -1,133 +1,190 @@
-# User Story — Onboarding de Perfil
-
-Persona: Victória — Manicure  
-Touchpoint: Onboarding / Perfil  
-Objetivo: Trocar serviços de manicure por cursos ou mentorias para evoluir profissionalmente.
-
---------------------------------------------------
-
-## 1. História de Usuário
-
-Como Victória, uma manicure que deseja evoluir na carreira,
-
-Eu quero cadastrar meu perfil informando os serviços que ofereço e o que desejo receber em troca,
-
-Para que eu possa encontrar pessoas dispostas a trocar cursos ou mentorias pelos meus serviços.
-
---------------------------------------------------
-
-## 2. Detalhes da Tela (UI / UX)
-
+User Stories — Fluxo Feliz Completo
+Persona: Victória — Manicure
+Objetivo: Trocar seus serviços de manicure por cursos ou mentorias que elevem seu nível profissional.
+1. User Story — Onboarding de Perfil
+1. História de Usuário
+Como Victória, uma manicure que precisa se especializar sem custos financeiros imediatos,
+Eu quero cadastrar meu perfil informando quais serviços de unha ofereço e quais cursos desejo receber em troca,
+Para que o sistema encontre parceiros de permuta compatíveis com meus objetivos.
+2. Detalhes da Tela (UI / UX)
 Tela: Onboarding de Perfil (Mobile)
-
 Header
-Título: Complete seu perfil
-Subtítulo: Mostre seu talento e encontre oportunidades de troca.
-
-Seção 1 — Informações Básicas
-- Foto de perfil
-  Botão: Adicionar foto
-  Opções:
-  - Tirar foto
-  - Escolher da galeria
-
-- Campo: Nome completo
-  Placeholder: Digite seu nome
-
-- Campo: Localização
-  Botão auxiliar: Usar minha localização
-
-Seção 2 — Serviços oferecidos
-Título: O que você oferece?
-
-Opções:
-- Manicure básica
-- Pedicure
-- Alongamento em gel
-- Nail art
-- Spa dos pés
-- Outro serviço
-
-Seção 3 — O que você procura
-Título: O que você quer receber?
-
-Opções:
-- Cursos de manicure
-- Cursos de estética
-- Mentorias
-- Produtos profissionais
-- Outro
-
-Seção 4 — Disponibilidade
-Título: Quando você atende?
-
-Opções:
-- Manhã
-- Tarde
-- Noite
-- Fins de semana
-
+● Título: Complete seu perfil de talentos
+● Subtítulo: Mostre o que você faz e o que deseja aprender para encontrar trocas perto de você.
+Seção 1 — Informações Básicas e Portfólio
+● Foto de perfil
+○ Botão: Adicionar foto
+● Galeria de Trabalhos (Portfólio)
+○ Botão: Adicionar fotos das unhas (Mínimo 3)
+● Campo: Nome completo ou profissional
+○ Placeholder: Digite seu nome (Ex: Victória Nails)
+● Campo: Localização
+○ Botão auxiliar: Usar minha localização
+Seção 2 — Serviços oferecidos (Minhas Habilidades)
+● Título: O que você oferece?
+● Opções:
+○ Manicure e Pedicure tradicional
+○ Esmaltação em Gel
+○ Alongamento em Fibra/Gel
+○ Blindagem e Banho de Gel
+○ Nail Art Decorada
+Seção 3 — O que você busca (Meus Interesses)
+● Título: O que você quer aprender?
+● Opções:
+○ Curso de Estética Facial
+○ Mentoria de Marketing Digital
+○ Workshop de Gestão de Salão
+○ Curso de Maquiagem
+○ Outro curso
+Seção 4 — Forma de permuta ou pagamento
+● Título: Como prefere trocar?
+● Opções:
+○ Permuta total (Serviço por Serviço)
+○ Permuta parcial (Serviço + Pix)
+○ Negociar no chat
 Seção 5 — Descrição
-Campo de texto livre
-
-Placeholder:
-Ex: Trabalho com manicure há 2 anos e estou buscando me especializar.
-
+● Campo de texto livre
+● Placeholder:
+○ Ex: Tenho 2 anos de experiência em alongamento. Procuro mentoria para organizar minhas redes sociais.
 Botão principal:
-Salvar e encontrar matches
-
+● Salvar e ver oportunidades
 Navegação após salvar:
-Tela de matches de habilidades
-
---------------------------------------------------
-
-## 3. Critérios de Aceitação (BDD)
-
+● Feed de cursos e mentorias disponíveis
+3. Critérios de Aceitação (BDD)
 Cenário 1 — Cadastro realizado com sucesso
-
-Dado que Victória criou uma conta no aplicativo  
-Quando ela preenche os campos obrigatórios:
-- Nome
-- Localização
-- Pelo menos um serviço oferecido
-- Pelo menos um interesse
-
-E clica em "Salvar e encontrar matches"
-
-Então o sistema salva o perfil  
-E redireciona para a tela de matches  
-
---------------------------------------------------
-
-Cenário 2 — Campo obrigatório não preenchido
-
-Dado que Victória está preenchendo o perfil
-
-Quando tenta salvar sem informar o que procura
-
-Então o sistema mostra a mensagem:
-"Informe o que você deseja receber"
-
-E impede o avanço no fluxo
-
---------------------------------------------------
-
+● Dado que Victória criou uma conta no aplicativo
+● Quando ela preenche os campos obrigatórios:
+○ Nome
+○ Localização
+○ Pelo menos 3 fotos no portfólio
+● E clica em "Salvar e ver oportunidades"
+● Então o sistema salva o perfil, exibe confirmação de sucesso e redireciona para o feed de demandas.
+Cenário 2 — Campo obrigatório (Portfólio) não preenchido
+● Dado que Victória está preenchendo o perfil
+● Quando tenta salvar sem adicionar as fotos do seu trabalho
+● Então o sistema mostra a mensagem: "Sua vitrine é importante! Adicione fotos do seu trabalho" e impede o avanço.
 Cenário 3 — Uso da geolocalização
-
-Dado que Victória está preenchendo o campo de localização
-
-Quando toca em "Usar minha localização"
-
-Então o aplicativo solicita permissão de localização
-
-E preenche automaticamente o campo
-
---------------------------------------------------
-
-Cenário 4 — Perfil ativo
-
-Dado que o perfil foi salvo com sucesso
-
-Então Victória passa a aparecer em matches de habilidades
-
-EOF
+● Dado que Victória está preenchendo o campo de localização
+● Quando toca em "Usar minha localização"
+● Então o aplicativo solicita permissão de localização e preenche automaticamente o campo de cidade ou bairro.
+2. User Story — Sendo Solicitada para um Serviço
+1. História de Usuário
+Como Victória, uma manicure disponível para trocas,
+Eu quero receber solicitações de instrutores interessados no meu serviço,
+Para que eu possa aceitar oportunidades de permuta sem precisar buscar ativamente.
+2. Detalhes da Tela (UI / UX)
+Tela: Notificação / Solicitação Recebida
+Header
+● Título: Novo interesse em troca!
+Card de solicitação:
+● Nome do instrutor/escola
+● Tipo de curso oferecido (Permuta)
+● Localização da troca
+● Data sugerida
+Botões:
+● Aceitar e Conversar
+● Recusar
+● Ver Portfólio do Instrutor
+3. Critérios de Aceitação (BDD)
+Cenário 1 — Recebimento de solicitação
+● Dado que Victória possui perfil ativo e portfólio visível
+● Quando um instrutor solicita o serviço dela em troca de um curso
+● Então ela recebe uma notificação e visualiza os detalhes da proposta de permuta.
+3. User Story — Negociação
+1. História de Usuário
+Como Victória,
+Eu quero negociar os detalhes da permuta via chat,
+Para que eu possa alinhar a quantidade de sessões de unha pelo curso com segurança.
+2. Detalhes da Tela (UI / UX)
+Tela: Chat Nativo
+Header
+● Nome do parceiro de troca
+● Status (online/offline)
+Área de mensagens
+● Mensagens enviadas/recebidas
+Ações rápidas:
+● Sugerir valor/quantidade (Ex: 2 sessões)
+● Confirmar Permuta
+● Cancelar
+Input
+● Campo de mensagem
+● Botão enviar
+3. Critérios de Aceitação (BDD)
+Cenário 1 — Negociação iniciada
+● Dado que Victória aceitou conversar sobre uma proposta
+● Quando abre o chat
+● Então ela pode trocar mensagens e definir se a troca será total ou terá valor adicional.
+4. User Story — Divulgação do Serviço
+1. História de Usuário
+Como Victória,
+Eu quero divulgar meus serviços e fotos recentes na plataforma,
+Para aumentar minhas chances de atrair mentores interessados no meu talento.
+2. Detalhes da Tela (UI / UX)
+Tela: Criar Post de Serviço
+Header
+● Título: Divulgar meu trabalho
+Seção 1 — Tipo de serviço
+● Seleção (Ex: Alongamento em Gel)
+Seção 2 — Descrição da Oferta
+● Campo texto (Ex: Ofereço pé e mão para quem me ensinar marketing)
+Seção 3 — Imagens (Obrigatório)
+● Upload de fotos novas
+Seção 4 — Disponibilidade
+● Dias / horários para a troca
+Botão: Publicar
+3. Critérios de Aceitação (BDD)
+Cenário 1 — Divulgação publicada
+● Dado que Victória preenche os dados e sobe as fotos do serviço
+● Quando clica em "Publicar"
+● Então o sistema publica o post e o torna visível no feed para quem oferece cursos.
+5. User Story — Rodando na Timeline
+1. História de Usuário
+Como Victória,
+Eu quero visualizar um feed com cursos e mentorias próximos,
+Para que eu possa encontrar rapidamente oportunidades de aprendizado na minha região.
+2. Detalhes da Tela (UI / UX)
+Tela: Feed / Timeline
+Header
+● Campo de busca (Ex: "Curso de Estética")
+● Filtro por distância (KM)
+Cards no feed:
+● Nome do curso/mentoria
+● Distância (Ex: 3km de você)
+● O que o instrutor procura (Ex: "Procuro Manicure")
+● Botão: Tenho interesse
+Filtros:
+● Tipo de curso
+● Distância
+● Data
+3. Critérios de Aceitação (BDD)
+Cenário 1 — Feed carregado
+● Dado que Victória acessa o aplicativo
+● Então o sistema exibe o feed com foco em cursos e mentorias baseados na geolocalização dela.
+Cenário 2 — Interação com oportunidade
+● Quando Victória clica em "Tenho interesse" em um curso
+● Então o sistema registra o interesse e notifica o instrutor para abrir o chat.
+6. User Story — Solicitando Serviço (Demanda)
+1. História de Usuário
+Como Victória, uma manicure que tem uma necessidade específica de aprendizado,
+Eu quero solicitar um curso ou mentoria dentro da plataforma,
+Para que eu possa encontrar alguém disposto a trocar conhecimento pelo meu serviço.
+2. Detalhes da Tela (UI / UX)
+Tela: Criar Solicitação (Mobile)
+Header
+● Título: Solicitar aprendizado
+● Subtítulo: Diga o que você quer aprender
+Seção 1 — Tipo de curso desejado
+● Campo seleção: Estética, Marketing, Finanças, Outro.
+Seção 2 — Descrição
+● Campo texto livre (Ex: Preciso de ajuda para organizar meu Instagram profissional)
+Seção 3 — Localização
+● Campo automático ou manual
+Seção 4 — O que ofereço em troca
+● Checkbox dos meus serviços de manicure
+Botão principal:
+● Publicar solicitação
+3. Critérios de Aceitação (BDD)
+Cenário 1 — Solicitação criada com sucesso
+● Dado que Victória preenche o que quer aprender e o que oferece
+● Quando clica em "Publicar solicitação"
+● Então o sistema cria a demanda e a torna visível para instrutores da região no feed.
