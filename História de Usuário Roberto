@@ -1,119 +1,181 @@
-# User Story — Onboarding de Perfil
-
-Persona: Roberto — Recém-formado  
-Touchpoint: Onboarding / Perfil  
-Objetivo: Conseguir projetos para construir portfólio.
-
---------------------------------------------------
-
-## 1. História de Usuário
-
-Como Roberto, um recém-formado em design,
-
-Eu quero cadastrar minhas habilidades e nível de experiência,
-
-Para que eu possa encontrar projetos reais.
-
---------------------------------------------------
-
-## 2. Detalhes da Tela (UI / UX)
-
+User Stories – Fluxo Roberto (Designer Iniciante)
+Persona: Roberto — Recém-formado (Iniciante/Estudante)
+Objetivo: Construir experiência prática em design comercial trocando trabalho por portfólio e conexões.
+1. User Story – Onboarding de Perfil
+1. História de Usuário
+Como Roberto, um designer recém-formado que quer construir portfólio, Eu quero cadastrar meu perfil informando minhas habilidades de design, disponibilidade e forma de trabalho, Para que eu possa encontrar oportunidades de projetos e ganhar experiência prática.
+2. Detalhes da Tela (UI / UX)
 Tela: Onboarding de Perfil (Mobile)
-
-Header
-Título: Comece sua jornada profissional
-Subtítulo: Encontre projetos para desenvolver seu portfólio.
-
-Seção 1 — Informações Básicas
-- Nome
-- Foto
-- Localização
-
-Seção 2 — Habilidades
-Título: O que você faz?
-
-Opções:
-- Design de logo
-- Identidade visual
-- Social media
-- UI/UX
-- Outro
-
-Seção 3 — Nível de experiência
-Título: Seu nível
-
-Opções:
-- Iniciante
-- Intermediário
-- Avançado
-
-Seção 4 — Tipo de oportunidade
-Título: O que você busca?
-
-Opções:
-- Experiência
-- Troca
-- Pago
-
-Seção 5 — Descrição
-Campo de texto livre
-
-Placeholder:
-Ex: Sou recém-formado e busco meus primeiros projetos.
-
-Botão principal:
-Salvar e explorar projetos
-
-Navegação após salvar:
-Feed de demandas
-
---------------------------------------------------
-
-## 3. Critérios de Aceitação (BDD)
-
-Cenário 1 — Cadastro realizado com sucesso
-
-Dado que Roberto criou uma conta no aplicativo  
-Quando ele preenche os campos obrigatórios:
-- Nome
-- Pelo menos uma habilidade
-
-E clica em "Salvar e explorar projetos"
-
-Então o sistema salva o perfil  
-E redireciona para o feed  
-
---------------------------------------------------
-
-Cenário 2 — Campo obrigatório não preenchido
-
-Dado que Roberto está preenchendo o perfil
-
-Quando tenta salvar sem selecionar nenhuma habilidade
-
-Então o sistema mostra a mensagem:
-"Selecione pelo menos uma habilidade"
-
-E impede o avanço
-
---------------------------------------------------
-
-Cenário 3 — Uso da geolocalização
-
-Dado que Roberto está preenchendo o campo de localização
-
-Quando toca em "Usar minha localização"
-
-Então o app solicita permissão
-
-E preenche automaticamente
-
---------------------------------------------------
-
-Cenário 4 — Perfil ativo
-
-Dado que o perfil foi salvo com sucesso
-
-Então Roberto passa a visualizar oportunidades relevantes
-
-EOF
+● Header
+○ Título: Complete seu perfil
+○ Subtítulo: Mostre suas habilidades para encontrar projetos
+● Seção 1 – Informações Básicas
+○ Foto de perfil: Botão “Adicionar foto”
+○ Campo: Nome completo
+○ Campo: Localização
+○ Campo: Área de atuação:
+■ Logo
+■ Social Media
+■ Banner
+■ Identidade Visual
+■ Outro
+● Seção 2 – Nível de experiência
+○ Iniciante
+○ Estudante
+○ Júnior
+○ Freelancer
+● Seção 3 – Forma de trabalho
+○ Pro bono (para portfólio)
+○ Troca de serviços
+○ Pago
+○ Negociar no chat
+● Seção 4 – Portfólio
+○ Campo para link (Behance, Drive, Instagram etc.)
+● Seção 5 – Descrição
+○ Texto livre
+○ Exemplo: “Sou designer recém-formado e estou construindo meu portfólio com projetos reais.”
+● Botão principal
+○ Salvar e ver oportunidades
+● Navegação após salvar
+○ Feed de demandas
+3. Critérios de Aceitação (BDD)
+● Cenário 1 – Cadastro realizado
+○ Dado que Roberto preenche Nome, Área e Forma de trabalho,
+○ Quando ele clica em salvar,
+○ Então o sistema salva o perfil e redireciona para o feed.
+● Cenário 2 – Campo obrigatório
+○ Se não preencher a área de atuação,
+○ O sistema mostra erro e impede o avanço.
+2. User Story – Captação de Primeiro Projeto
+1. História de Usuário
+Como Roberto, um designer iniciante, Eu quero encontrar pequenos negócios que precisem de design, Para que eu possa aplicar o que aprendi e construir meu portfólio.
+Jobs funcionais: Encontrar projetos de design Jobs emocionais: Sentir menos ansiedade e ver progresso profissional
+2. Detalhes da Tela (UI / UX)
+Tela: Feed de Demandas
+● Header
+○ Barra de busca
+○ Filtro
+● Filtros
+○ Categoria: Design
+○ Tipo: Pro bono / Troca / Pago
+○ Localização
+○ Tipo de projeto:
+■ Logo
+■ Post Instagram
+■ Banner
+■ Cartão de visita
+■ Identidade visual
+● Cards
+○ Nome do negócio
+○ Tipo de projeto
+○ Forma de pagamento/troca
+○ Descrição curta
+○ Botão: Tenho interesse
+● Ação
+○ Ao clicar → abre chat
+3. Critérios de Aceitação (BDD)
+● Quando Roberto filtra por “Design”
+● Então aparecem apenas projetos de design
+● Quando Roberto clica em “Tenho interesse”
+● Então o chat com o cliente é aberto
+3. User Story – Alinhamento de Expectativas
+1. História de Usuário
+Como Roberto, Eu quero alinhar no chat o que será entregue e deixar claro que sou iniciante, Para que eu seja transparente e evite expectativas irreais.
+Jobs funcionais: Definir entregáveis Jobs emocionais: Sentir-se honesto e menos pressionado
+2. Detalhes da Tela (UI / UX)
+Tela: Chat Nativo
+● Header: Nome do cliente + status
+● Área de mensagens
+● Campo para enviar:
+○ Mensagens
+○ Imagens
+○ PDF
+○ Links
+● Ações rápidas:
+○ Enviar portfólio
+○ Enviar referências
+○ Definir entregáveis
+○ Confirmar acordo
+● Confirmação de acordo
+○ Resumo:
+■ Tipo de projeto
+■ Entregáveis
+■ Prazo
+■ Forma de pagamento/troca
+○ Botão: Confirmar acordo
+3. Critérios de Aceitação (BDD)
+● Quando Roberto envia arquivos,
+● O cliente consegue visualizar
+● Quando clicam em “Confirmar acordo”,
+● O projeto muda para status: Em andamento
+4. User Story – Desenvolvimento do Projeto
+1. História de Usuário
+Como Roberto, Eu quero enviar atualizações e versões do projeto, Para que o cliente acompanhe o progresso e aprove as etapas.
+2. Detalhes da Tela (UI / UX)
+Tela: Projeto em Andamento
+● Nome do projeto
+● Status:
+○ Em andamento
+○ Aguardando feedback
+○ Aprovado
+○ Finalizado
+● Botões:
+○ Enviar versão
+○ Pedir feedback
+○ Marcar como finalizado
+● Upload:
+○ Imagem
+○ PDF
+○ Arquivo
+3. Critérios de Aceitação (BDD)
+● Quando Roberto envia uma versão,
+● O cliente recebe notificação
+● Quando o cliente aprova,
+● O status muda para “Aprovado”
+5. User Story – Entrega do Projeto
+1. História de Usuário
+Como Roberto, Eu quero entregar o projeto final e finalizar o trabalho, Para que eu possa adicionar ao meu portfólio e receber avaliação.
+2. Detalhes da Tela (UI / UX)
+Tela: Entrega Final
+● Upload do arquivo final
+● Campo: Descrição do projeto
+● Botão: Finalizar projeto
+● Após finalizar:
+○ Botão: Adicionar ao portfólio
+3. Critérios de Aceitação (BDD)
+● Quando Roberto clica em “Finalizar projeto”,
+● O sistema solicita avaliação do cliente
+6. User Story – Avaliação e Portfólio
+1. História de Usuário
+Como Roberto, Eu quero receber avaliações e adicionar projetos ao meu portfólio, Para que eu construa reputação e consiga mais oportunidades.
+Jobs emocionais: Sentir progresso, confiança e crescimento profissional
+2. Detalhes da Tela (UI / UX)
+Tela: Avaliação
+● Cliente avalia:
+○ Comunicação
+○ Qualidade do trabalho
+○ Cumprimento de prazo
+● Nota: 1 a 5 estrelas
+● Comentário
+Tela: Portfólio
+● Imagem do projeto
+● Nome do projeto
+● Nome do cliente
+● Descrição
+● Botão: Tornar público
+3. Critérios de Aceitação (BDD)
+● Quando o cliente avalia,
+● A avaliação aparece no perfil de Roberto
+● Quando Roberto adiciona ao portfólio,
+● O projeto aparece no perfil dele
+Resumo da Jornada do Roberto (Fluxo Completo)
+1. Criar perfil
+2. Ver feed de demandas
+3. Demonstrar interesse
+4. Conversar no chat
+5. Alinhar acordo
+6. Desenvolver projeto
+7. Entregar projeto
+8. Receber avaliação
+9. Adicionar ao portfólio
+10. Conseguir novos projetos
